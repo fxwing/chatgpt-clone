@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  position: relative;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -54,6 +55,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 1024px) {
+      align-items: start;
+    }
 
     .imgContainer {
       display: flex;
